@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Internships</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="container">
+            <div class="text-left">
+                <h2 class="white">Logo</h2>
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="request.html">Request for Services</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="career.html">Career</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="intern.html">Internship Programmes</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="social.html">Social Media Courses</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="final.html">Final Placements</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="mgt.html">Management Team</a></li>
+                </ul>
+            </nav>
+            <section id="content">
+                <div class="row">
+                    <div class="col-md-9 col-sm-12 white">
+                        <h6>Media offers Internships and Live Projects all over India for Undergraduates, Graduates and Post Graduates in Marketing, Finance ,Human Resources, Social Media, Advertising , Public Relations, Journalism, Events Content writing etc.</h6>
+                        <h6>We have a team that constantly changes the projects and Internship depending on the need of the hour and monitors the students who undertake such projects and Internships.</h6>
+                        <h6>Kindly fill up the form below and we shall revert back to you with 48 hours.</h6>
+                        <form action="intern.php" method="POST">
+                            <div class="row m-3">
+                                <div class="col-sm-3">
+                                    <label for="name">Full Name<span class="red">&#9733;</span></label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="text" name="name" required>
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class="col-sm-3">
+                                    <label for="address">Current Address<span class="red">&#9733;</span></label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="text" name="address" required>
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class="col-sm-3">
+                                    <label for="city">City<span class="red">&#9733;</span></label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="text" name="city" required>
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class="col-sm-3">
+                                    <label for="phone">Mobile Number<span class="red">&#9733;</span></label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="text" maxlength="10" name="phone" required>
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class="col-sm-3">
+                                    <label for="email">Email<span class="red">&#9733;</span></label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class="col-sm-3">
+                                    <label for="date">Start Date<span class="red">&#9733;</span></label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="date" name="date" required>
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class="col-sm-3">
+                                    <label for="college">College/University Name<span class="red">&#9733;</span></label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="text" name="college" required>
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class="col-sm-3">
+                                    <label for="qual">Qualification<span class="red">&#9733;</span></label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <select name="qual" required>
+                                        <option value="Under Graduate">Under Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Post Graduate">Post Graduate</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class="col-sm-3">
+                                    <label for="spec">Specialization<span class="red">&#9733;</span></label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <select name="spec" required>
+                                        <option value="Advertising">Advertising</option>
+                                        <option value="Content Writing">Content Writing</option>
+                                        <option value="Events">Events</option>
+                                        <option value="Finance">Finance</option>
+                                        <option value="HR">HR</option>
+                                        <option value="IT">IT</option>
+                                        <option value="Journalism">Journalism</option>
+                                        <option value="Marketing">Marketing</option>
+                                        <option value="Operations">Operations</option>
+                                        <option value="Public Relation">Public Relation</option>
+                                        <option value="Social Media">Social Media</option>
+                                    </select>
+                                </div>
+                            </div>                            
+                            <div class="text-center">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="text-center">
+                            <h4 class="red">SERVICES</h4>
+                        </div>
+                        <ul class="services">
+                            <li><a class="nav-link redbg" href="mobile.html">Mobile Video Streaming</a></li>
+                            <li><a class="nav-link redbg" href="location.html">Location Based Advertising</a></li>
+                            <li><a class="nav-link redbg" href="bluetooth.html">Bluetooth Advertising</a></li>
+                            <li><a class="nav-link redbg" href="internet.html">Internet Advertising</a></li>
+                            <li><a class="nav-link redbg" href="video.html">Video SMS</a></li>
+                            <li><a class="nav-link redbg" href="vemails.html">Video Emails</a></li>
+                            <li><a class="nav-link redbg" href="wifi.html">WiFi Advertising</a></li>
+                            <li><a class="nav-link redbg" href="product.html">Product Launches</a></li>
+                            <li><a class="nav-link redbg" href="smedia.html">Social Media</a></li>
+                            <li><a class="nav-link redbg" href="regional.html">Regional Voice SMS</a></li>
+                            <li><a class="nav-link redbg" href="mvtraining.html">Mobile Video Training</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="text-left">
+                    <h5 class="white">Copyright &copy; 2020. All Rights Reserved.</h5>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
